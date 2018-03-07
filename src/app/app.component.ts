@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'test1';
+  submit(event,value){
+    console.log(value);
+    console.log(event);
+}
 }
